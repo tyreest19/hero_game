@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var blue_textholder: UIButton!
     @IBOutlet weak var blue_txtlb: UILabel!
+    @IBOutlet weak var health2: UILabel!
+    @IBOutlet weak var health: UILabel!
+    
+    
     var player1 = Character(hp2: 100, attackPwr2: 20, name2: "player1")
     var player2 = Character(hp2: 100, attackPwr2: 30, name2: "player2")
     
@@ -33,17 +37,21 @@ class ViewController: UIViewController {
             player1.hp = 100
             player2.hp = 100
             blue_txtlb.text = "start attacking"
+            health.text = "\(player1.hp)"
+            health2.text = "\(player2.hp)"
         }
     }
     
     @IBAction func attackBtn1(sender: UIButton) {
         player2.hp = player2.hp - player1.attackPwr
         print("PLAYER 2: ",player2.hp)
+        health2.text = "\(player2.hp)"
         winnerlabel()
     }
     @IBAction func attackBtn2(sender: UIButton) {
         player1.hp = player1.hp - player2.attackPwr
         print("PLAYER 1:",player1.hp)
+        health.text = "\(player1.hp)"
         winnerlabel()
     }
     

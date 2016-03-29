@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55D5A4C333E332781D192ACC56DFC63906509442",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55D5A4C333E332781D192ACC56DFC63906509442" : 0,
+    "B9FBF479F3975CD8AB71509D8C4755DB28C5C57D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5F7F69DD-986C-4D6A-B69F-853E25F1E73E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55D5A4C333E332781D192ACC56DFC63906509442" : "hero_game\/",
+    "B9FBF479F3975CD8AB71509D8C4755DB28C5C57D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hero_game",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "hero_game.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tyreest19\/hero_game.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55D5A4C333E332781D192ACC56DFC63906509442"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tyreest19\/myLife.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9FBF479F3975CD8AB71509D8C4755DB28C5C57D"
+    }
+  ]
+}
